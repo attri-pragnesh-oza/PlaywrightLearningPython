@@ -8,3 +8,4 @@ with sync_playwright() as p:
     print("Page title:", page.title())
     print("Current URL:", page.url)
     browser.close()
+# test
